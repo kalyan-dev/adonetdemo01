@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Products.master.cs" Inherits="adonetdemo01.Products" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Products Catalog</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div class="banner">
+        Products Catalog
+    </div>
+    <div class="menu">
+        [<a href="AddProduct.aspx">Add Product</a>]
+        &nbsp;
+        [<a href="ListProducts.aspx">List Products</a>]
+        &nbsp;
+        [<a href="EditProducts.aspx">Edit Products</a>]
+        &nbsp;
+        [<a href="SearchProducts.aspx">Search Products</a>]
+        &nbsp;
+
+    </div>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

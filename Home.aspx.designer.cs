@@ -10,7 +10,7 @@
 
 namespace adonetdemo01
 {
-    public partial class _Default
+    public partial class Home
     {
     }
 }
