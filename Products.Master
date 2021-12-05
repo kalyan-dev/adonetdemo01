@@ -22,6 +22,8 @@
         &nbsp;
         [<a href="SearchProducts.aspx">Search Products</a>]
         &nbsp;
+        [<a href="ProductsByCategory.aspx">Products by Category</a>]
+        &nbsp;
 
     </div>
 

@@ -15,7 +15,8 @@
     <asp:TextBox ID="txtQoH" runat="server"></asp:TextBox>
     <p></p>
     Category Code <br />
-    <asp:TextBox ID="txtCatCode" runat="server"></asp:TextBox>
+    <asp:DropDownList ID="ddlCatagories" runat="server" DataSourceID="sdsCategories" DataTextField="CategoryName" DataValueField="CategoryCode"></asp:DropDownList>
+    <asp:SqlDataSource ID="sdsCategories" runat="server" ConnectionString="<%$ ConnectionStrings:rccltestCon %>" SelectCommand="SELECT * FROM [ProductCategories]"></asp:SqlDataSource>
     <p></p>
     Remarks<br />
     <asp:TextBox ID="txtRemarks" runat="server"></asp:TextBox>

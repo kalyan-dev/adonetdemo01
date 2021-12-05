@@ -29,7 +29,7 @@ namespace adonetdemo01
             cmd.Parameters.AddWithValue("@productName", txtName.Text);
             cmd.Parameters.AddWithValue("@price", txtPrice.Text);
             cmd.Parameters.AddWithValue("@qoh", txtQoH.Text);
-            cmd.Parameters.AddWithValue("@catcode", txtCatCode.Text);
+            cmd.Parameters.AddWithValue("@catcode", ddlCatagories.SelectedValue);
             cmd.Parameters.AddWithValue("@remarks", txtRemarks.Text);
 
             try
